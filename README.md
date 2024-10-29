@@ -23,15 +23,18 @@ To run the RealEstateDapp, you need to have the following installed:
    cd RealEstateDapp
 
 2. Install the dependencies
-    npm install
+   ```bash
+   npm install
 
-3. Start Ganache and deploy the smart contracts
+4. Start Ganache and deploy the smart contracts
+   ```bash
     truffle migrate
 
-4. Run the DApp
-   npm start
+6. Run the DApp
+   ```bash
+    npm start
 
-5. Open your browser and visit http://localhost:3000 to interact with the DApp.
+8. Open your browser and visit http://localhost:3000 to interact with the DApp.
 
 
 
