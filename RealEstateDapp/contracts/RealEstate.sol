@@ -81,4 +81,9 @@ contract RealEstate {
             properties[_propertyId].price = _newPrice;
         }
     }
+
+    // New method to get the count of properties
+    function getPropertyCount() public view returns (uint) {
+        return propertyIds.length;
+    }
 }
